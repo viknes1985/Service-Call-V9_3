@@ -6,7 +6,7 @@ import { Category, Service, UserProfile, Sponsor } from './types';
 import { CATEGORIES, STATES, MALAYSIA_STATES } from './constants';
 
 // Local assets
-const chromeIcon = "/chromeicon.png";
+const chromeIcon = "/favicon.png";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<'find' | 'home' | 'profile'>('home');
@@ -526,7 +526,7 @@ export default function App() {
           </button>
         </div>
         <div className="flex items-center gap-2">
-          <img src="/chromeicon.png" alt="Logo" className="w-8 h-8 object-contain" />
+          <img src="/favicon.png" alt="Logo" className="w-8 h-8 object-contain" />
           <h1 className="text-xl font-black tracking-tighter italic">JomPro</h1>
         </div>
         <div className="absolute right-4 flex items-center">
